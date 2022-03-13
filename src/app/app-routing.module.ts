@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CarosoulPageComponent } from './carosoul-page/carosoul-page.component';
+import { EssentialArtifactsComponent } from './essential-artifacts/essential-artifacts.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 const routes: Routes = [
@@ -8,7 +10,14 @@ const routes: Routes = [
     path: 'homepage',
     component: HomePageComponent,
   },
-
+  {
+    path: 'carosol',
+    component: CarosoulPageComponent,
+  },
+  {
+    path: 'artifacts',
+    component: EssentialArtifactsComponent,
+  },
   { path: '**', redirectTo: '/homepage' },
 ];
 
