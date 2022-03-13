@@ -1,5 +1,5 @@
 .backgroundImage {
-  overflow: auto;
+  overflow: hidden;
   object-fit: fill;
   background-image: url("../../assets/MainBackground.png");
   height: calc(100vh - 60px);
@@ -10,46 +10,41 @@
   margin-top: 83px;
   margin-left: 440px;
   object-fit: fill;
-  height: 213px;
-  width: 412px;
   z-index: 100;
-  background-image: url("../../assets/mi1.jpeg");
+  background-repeat: no-repeat;
 }
 
-.bg1:hover,
-.bg2:hover,
-.bg3:hover,
-.bg4:hover {
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
   border: 12px solid orange;
   border-radius: 4px;
 }
 
 .bg2 {
-  margin-top: -102px;
+  margin-top: -106px;
   margin-left: 1228px;
   object-fit: fill;
-  height: 292px;
-  width: 217px;
+  background-repeat: no-repeat;
   z-index: 200;
-  background-image: url("../../assets/mi1.jpeg");
 }
 
 .bg3 {
-  margin-top: -52px;
+  margin-top: -55px;
   margin-left: 240px;
   object-fit: fill;
-  height: 237px;
-  width: 422px;
+  background-repeat: no-repeat;
+
   z-index: 300;
-  background-image: url("../../assets/mi1.jpeg");
 }
 
 .bg4 {
-  margin-top: -16px;
+  margin-top: -19px;
   margin-left: 1450px;
   object-fit: fill;
-  height: 222px;
-  width: 200px;
+
+  background-repeat: no-repeat;
+
   z-index: 400;
-  background-image: url("../../assets/mi1.jpeg");
 }
