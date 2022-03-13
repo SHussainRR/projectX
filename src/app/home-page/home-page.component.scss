@@ -1,6 +1,6 @@
 .backgroundImage {
   overflow: auto;
-  object-fit: contain;
+  object-fit: fill;
   background-image: url("../../assets/MainBackground.png");
   height: calc(100vh - 60px);
   width: calc(100vw - 1px);
@@ -16,6 +16,14 @@
   background-image: url("../../assets/mi1.jpeg");
 }
 
+.bg1:hover,
+.bg2:hover,
+.bg3:hover,
+.bg4:hover {
+  border: 12px solid orange;
+  border-radius: 4px;
+}
+
 .bg2 {
   margin-top: -102px;
   margin-left: 1228px;
@@ -23,5 +31,25 @@
   height: 292px;
   width: 217px;
   z-index: 200;
+  background-image: url("../../assets/mi1.jpeg");
+}
+
+.bg3 {
+  margin-top: -52px;
+  margin-left: 240px;
+  object-fit: fill;
+  height: 237px;
+  width: 422px;
+  z-index: 300;
+  background-image: url("../../assets/mi1.jpeg");
+}
+
+.bg4 {
+  margin-top: -16px;
+  margin-left: 1450px;
+  object-fit: fill;
+  height: 222px;
+  width: 200px;
+  z-index: 400;
   background-image: url("../../assets/mi1.jpeg");
 }
