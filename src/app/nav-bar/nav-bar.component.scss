@@ -1,5 +1,12 @@
 .navMenu {
   text-align: center;
+  padding-top: 15px;
+  background-color: #fddb3a;
+  height: 60px;
+}
+
+.ml8 {
+  margin-left: 8px;
 }
 
 .navMenu a {
@@ -15,6 +22,6 @@
 }
 
 .navMenu a:hover {
-  color: #fddb3a;
-  border-bottom: 2px solid #fddb3a;
+  color: red;
+  border-bottom: 2px solid red;
 }

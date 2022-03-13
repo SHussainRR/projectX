@@ -1,0 +1,27 @@
+.backgroundImage {
+  overflow: auto;
+  object-fit: contain;
+  background-image: url("../../assets/MainBackground.png");
+  height: calc(100vh - 60px);
+  width: calc(100vw - 1px);
+}
+
+.bg1 {
+  margin-top: 83px;
+  margin-left: 440px;
+  object-fit: fill;
+  height: 213px;
+  width: 412px;
+  z-index: 100;
+  background-image: url("../../assets/mi1.jpeg");
+}
+
+.bg2 {
+  margin-top: -102px;
+  margin-left: 1228px;
+  object-fit: fill;
+  height: 292px;
+  width: 217px;
+  z-index: 200;
+  background-image: url("../../assets/mi1.jpeg");
+}
