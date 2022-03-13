@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projectX": {
+    "xyz-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,12 +20,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/projectX",
+            "outputPath": "dist/xyz-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "projectX:build:production"
+              "browserTarget": "xyz-app:build:production"
             },
             "development": {
-              "browserTarget": "projectX:build:development"
+              "browserTarget": "xyz-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "projectX:build"
+            "browserTarget": "xyz-app:build"
           }
         },
         "test": {
@@ -93,7 +93,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "projectX"
+  "defaultProject": "xyz-app"
 }
