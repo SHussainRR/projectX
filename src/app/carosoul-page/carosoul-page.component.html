@@ -1,1 +1,16 @@
-<p>carosoul-page works!</p>
+<div class="book-section">
+  <div class="container">
+    <div class="right" *ngFor="let page of pages; index as i">
+      <figure *ngIf="i === 0" class="back" id="back-cover">hello</figure>
+      <figure
+        *ngIf="i !== 0"
+        class="front"
+        style="background-image: url({{ pages[i - 1] }});"
+      ></figure>
+      <figure class="front" style="background-image: url({{ page }});"></figure>
+    </div>
+  </div>
+  <button (click)="turnLeft()">Prev</button>
+  <button (click)="turnRight()">Next</button>
+  <br />
+</div>

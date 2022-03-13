@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CarosoulPageComponent } from './carosoul-page/carosoul-page.component';
 import { EssentialArtifactsComponent } from './essential-artifacts/essential-artifacts.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { EssentialArtifactsComponent } from './essential-artifacts/essential-art
     CarosoulPageComponent,
     EssentialArtifactsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, CommonModule],
   providers: [],
   bootstrap: [AppComponent],
 })
