@@ -1,9 +1,11 @@
 .backgroundImage {
-  object-fit: fit;
+  object-fit: fill;
   background-image: url("../../assets/TaizLarkiyan.png");
   background-size: cover;
   height: 100%;
   width: 100%;
+  // height: calc(100vh - 80px);
+  // width: calc(100vw - 100px);
   background-repeat: no-repeat;
 }
 
@@ -54,7 +56,7 @@
   top: 75%;
   left: 76%;
 
-  height: 28%;
+  height: 20%;
   width: 14%;
 }
 
