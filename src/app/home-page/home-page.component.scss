@@ -1,48 +1,64 @@
 .backgroundImage {
   object-fit: fit;
-  background-image: url("../../assets/MainBackground.png");
+  background-image: url("../../assets/TaizLarkiyan.png");
   background-size: cover;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
 }
 
-.bg1 {
+.id1 {
   position: absolute;
-  top: 128px;
-  left: 366px;
-  object-fit: fill;
-  background-repeat: no-repeat;
+  top: 22%;
+  left: 25%;
+
+  height: 19%;
+  width: 14%;
 }
 
-.img1:hover,
-.img2:hover,
-.img3:hover,
-.img4:hover {
-  border: 12px solid orange;
-  border-radius: 4px;
+.id1:hover {
+  border: 6px solid orange;
+  border-radius: 8px;
 }
 
-.bg2 {
+.id2 {
   position: absolute;
-  top: 220px;
-  left: 1028px;
-  object-fit: fill;
-  background-repeat: no-repeat;
+  top: 44%;
+  left: 65%;
+
+  height: 24%;
+  width: 10%;
 }
 
-.bg3 {
-  position: absolute;
-  top: 423px;
-  left: 204px;
-  object-fit: fill;
-  background-repeat: no-repeat;
+.id2:hover {
+  border: 6px solid orange;
+  border-radius: 8px;
 }
 
-.bg4 {
-  top: 607px;
-  left: 1236px;
-  object-fit: fill;
+.id3 {
   position: absolute;
-  background-repeat: no-repeat;
+  top: 53%;
+  left: 17%;
+
+  height: 26%;
+  width: 10%;
+}
+
+.id3:hover {
+  border: 6px solid orange;
+  border-radius: 8px;
+}
+
+.id4 {
+  position: absolute;
+  top: 75%;
+  left: 76%;
+
+  height: 28%;
+  width: 14%;
+}
+
+.id4:hover {
+  border: 6px solid orange;
+  border-radius: 8px;
 }
