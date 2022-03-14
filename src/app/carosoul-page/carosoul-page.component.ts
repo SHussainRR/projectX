@@ -16,15 +16,15 @@ export class CarosoulPageComponent implements AfterViewInit {
   constructor(private el: ElementRef, private renderer: Renderer2) {}
 
   pages = [
-    'assets/1.jpg',
-    'assets/2.jpg',
-    'assets/3.jpg',
-    'assets/4.jpg',
-    'assets/5.jpg',
-    'assets/6.jpg',
-    'assets/7.jpg',
-    'assets/8.jpg',
     'assets/9.jpg',
+    'assets/8.jpg',
+    'assets/7.jpg',
+    'assets/6.jpg',
+    'assets/5.jpg',
+    'assets/4.jpg',
+    'assets/3.jpg',
+    'assets/2.jpg',
+    'assets/1.jpg',
   ];
   right: Element[] | null | undefined;
   si!: number;

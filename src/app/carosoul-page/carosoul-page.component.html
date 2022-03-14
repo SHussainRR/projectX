@@ -7,6 +7,11 @@
         class="front"
         style="background-image: url({{ pages[i - 1] }});"
       ></figure>
+      <figure
+        *ngIf="i !== 0"
+        class="back"
+        style="background-image: url({{ pages[i - 1] }});"
+      ></figure>
       <figure class="front" style="background-image: url({{ page }});"></figure>
     </div>
   </div>
