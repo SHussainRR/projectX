@@ -1,16 +1,17 @@
 .backgroundImage {
-  overflow: hidden;
-  object-fit: fill;
+  object-fit: fit;
   background-image: url("../../assets/MainBackground.png");
-  height: calc(100vh - 60px);
-  width: calc(100vw - 1px);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .bg1 {
-  margin-top: 82px;
-  margin-left: 440px;
+  position: absolute;
+  top: 128px;
+  left: 366px;
   object-fit: fill;
-  z-index: 100;
   background-repeat: no-repeat;
 }
 
@@ -23,28 +24,25 @@
 }
 
 .bg2 {
-  margin-top: -108px;
-  margin-left: 1233px;
+  position: absolute;
+  top: 220px;
+  left: 1028px;
   object-fit: fill;
   background-repeat: no-repeat;
-  z-index: 200;
 }
 
 .bg3 {
-  margin-top: -56px;
-  margin-left: 240px;
+  position: absolute;
+  top: 423px;
+  left: 204px;
   object-fit: fill;
   background-repeat: no-repeat;
-
-  z-index: 300;
 }
 
 .bg4 {
-  margin-top: -22px;
-  margin-left: 1483px;
+  top: 607px;
+  left: 1236px;
   object-fit: fill;
-
+  position: absolute;
   background-repeat: no-repeat;
-
-  z-index: 400;
 }
